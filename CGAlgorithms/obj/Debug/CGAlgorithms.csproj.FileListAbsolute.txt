@@ -1,0 +1,14 @@
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGAlgorithms\bin\Debug\CGAlgorithms.dll
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGAlgorithms\bin\Debug\CGAlgorithms.pdb
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGAlgorithms\bin\Debug\CGUtilities.dll
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGAlgorithms\bin\Debug\CGUtilities.pdb
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGAlgorithms\obj\Debug\CGAlgorithms.csprojResolveAssemblyReference.cache
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGAlgorithms\obj\Debug\CGAlgorithms.dll
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGAlgorithms\obj\Debug\CGAlgorithms.pdb
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGAlgorithms\bin\Debug\CGAlgorithms.dll
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGAlgorithms\bin\Debug\CGAlgorithms.pdb
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGAlgorithms\bin\Debug\CGUtilities.dll
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGAlgorithms\bin\Debug\CGUtilities.pdb
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGAlgorithms\obj\Debug\CGAlgorithms.csprojResolveAssemblyReference.cache
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGAlgorithms\obj\Debug\CGAlgorithms.dll
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGAlgorithms\obj\Debug\CGAlgorithms.pdb

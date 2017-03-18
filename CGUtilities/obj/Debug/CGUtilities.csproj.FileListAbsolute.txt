@@ -1,0 +1,8 @@
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGUtilities\bin\Debug\CGUtilities.dll
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGUtilities\bin\Debug\CGUtilities.pdb
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGUtilities\obj\Debug\CGUtilities.dll
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGUtilities\obj\Debug\CGUtilities.pdb
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGUtilities\bin\Debug\CGUtilities.dll
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGUtilities\bin\Debug\CGUtilities.pdb
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGUtilities\obj\Debug\CGUtilities.dll
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGUtilities\obj\Debug\CGUtilities.pdb

@@ -1,0 +1,18 @@
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGAlgorithmsUnitTest\bin\Debug\CGAlgorithmsUnitTest.dll
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGAlgorithmsUnitTest\bin\Debug\CGAlgorithmsUnitTest.pdb
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGAlgorithmsUnitTest\bin\Debug\CGUtilities.dll
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGAlgorithmsUnitTest\bin\Debug\CGUtilities.pdb
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGAlgorithmsUnitTest\obj\Debug\CGAlgorithmsUnitTest.csprojResolveAssemblyReference.cache
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGAlgorithmsUnitTest\obj\Debug\CGAlgorithmsUnitTest.dll
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGAlgorithmsUnitTest\obj\Debug\CGAlgorithmsUnitTest.pdb
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGAlgorithmsUnitTest\bin\Debug\CGAlgorithms.dll
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGAlgorithmsUnitTest\bin\Debug\CGAlgorithms.pdb
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGAlgorithmsUnitTest\bin\Debug\CGAlgorithmsUnitTest.dll
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGAlgorithmsUnitTest\bin\Debug\CGAlgorithmsUnitTest.pdb
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGAlgorithmsUnitTest\bin\Debug\CGAlgorithms.dll
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGAlgorithmsUnitTest\bin\Debug\CGUtilities.dll
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGAlgorithmsUnitTest\bin\Debug\CGAlgorithms.pdb
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGAlgorithmsUnitTest\bin\Debug\CGUtilities.pdb
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGAlgorithmsUnitTest\obj\Debug\CGAlgorithmsUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGAlgorithmsUnitTest\obj\Debug\CGAlgorithmsUnitTest.dll
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGAlgorithmsUnitTest\obj\Debug\CGAlgorithmsUnitTest.pdb

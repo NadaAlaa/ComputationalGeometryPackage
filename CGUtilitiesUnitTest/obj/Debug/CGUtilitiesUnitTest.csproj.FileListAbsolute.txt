@@ -1,0 +1,14 @@
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGUtilitiesUnitTest\bin\Debug\CGUtilitiesUnitTest.dll
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGUtilitiesUnitTest\bin\Debug\CGUtilitiesUnitTest.pdb
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGUtilitiesUnitTest\bin\Debug\CGUtilities.dll
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGUtilitiesUnitTest\bin\Debug\CGUtilities.pdb
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGUtilitiesUnitTest\obj\Debug\CGUtilitiesUnitTest.csprojResolveAssemblyReference.cache
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGUtilitiesUnitTest\obj\Debug\CGUtilitiesUnitTest.dll
+D:\Career\Teaching\Geometry\Student Packages\Geometry Package\CGUI\CGUtilitiesUnitTest\obj\Debug\CGUtilitiesUnitTest.pdb
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGUtilitiesUnitTest\bin\Debug\CGUtilitiesUnitTest.dll
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGUtilitiesUnitTest\bin\Debug\CGUtilitiesUnitTest.pdb
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGUtilitiesUnitTest\bin\Debug\CGUtilities.dll
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGUtilitiesUnitTest\bin\Debug\CGUtilities.pdb
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGUtilitiesUnitTest\obj\Debug\CGUtilitiesUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGUtilitiesUnitTest\obj\Debug\CGUtilitiesUnitTest.dll
+C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGUtilitiesUnitTest\obj\Debug\CGUtilitiesUnitTest.pdb
