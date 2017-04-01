@@ -20,5 +20,11 @@ namespace CGUtilities
             Outside,
             OnEdge
         }
+        public enum EventType
+        {
+            StartPoint,
+            EndPoint,
+            Intersection
+        }
     }
 }

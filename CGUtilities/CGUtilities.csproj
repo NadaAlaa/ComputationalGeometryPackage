@@ -40,12 +40,39 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Constants.cs" />
+    <Compile Include="DataStructure\Algorithms.cs" />
+    <Compile Include="DataStructure\Bag.cs" />
+    <Compile Include="DataStructure\BigList.cs" />
+    <Compile Include="DataStructure\CollectionBase.cs" />
+    <Compile Include="DataStructure\Comparers.cs" />
+    <Compile Include="DataStructure\Deque.cs" />
+    <Compile Include="DataStructure\DictionaryBase.cs" />
+    <Compile Include="DataStructure\Hash.cs" />
+    <Compile Include="DataStructure\ListBase.cs" />
+    <Compile Include="DataStructure\MultiDictionary.cs" />
+    <Compile Include="DataStructure\MultiDictionaryBase.cs" />
+    <Compile Include="DataStructure\OrderedBag.cs" />
+    <Compile Include="DataStructure\OrderedDictionary.cs" />
+    <Compile Include="DataStructure\OrderedMultiDictionary.cs" />
+    <Compile Include="DataStructure\OrderedSet.cs" />
+    <Compile Include="DataStructure\Pair.cs" />
+    <Compile Include="DataStructure\ReadOnlyCollectionBase.cs" />
+    <Compile Include="DataStructure\ReadOnlyDictionaryBase.cs" />
+    <Compile Include="DataStructure\ReadOnlyListBase.cs" />
+    <Compile Include="DataStructure\ReadOnlyMultiDictionaryBase.cs" />
+    <Compile Include="DataStructure\RedBlack.cs" />
+    <Compile Include="DataStructure\Set.cs" />
+    <Compile Include="DataStructure\Strings.cs" />
+    <Compile Include="DataStructure\Triple.cs" />
+    <Compile Include="DataStructure\Util.cs" />
     <Compile Include="Enums.cs" />
+    <Compile Include="Event.cs" />
     <Compile Include="HelperMethods.cs" />
     <Compile Include="Line.cs" />
     <Compile Include="Point.cs" />
     <Compile Include="Polygon.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SortedPoints.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

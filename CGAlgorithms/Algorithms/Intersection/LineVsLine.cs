@@ -7,7 +7,7 @@ using CGUtilities;
 
 namespace CGAlgorithms.Algorithms.Intersection
 {
-    class LineVsLine:Algorithm
+    class LineVsLine : Algorithm
     {
         public override void Run(List<CGUtilities.Point> points, List<CGUtilities.Line> lines, List<CGUtilities.Polygon> polygons, ref List<CGUtilities.Point> outPoints, ref List<CGUtilities.Line> outLines, ref List<CGUtilities.Polygon> outPolygons)
         {
@@ -17,8 +17,6 @@ namespace CGAlgorithms.Algorithms.Intersection
                 {
                     double m1 = (lines[i].Start.Y - lines[i].End.Y) / (lines[i].Start.X - lines[i].End.X);
                     double m2 = (lines[j].Start.Y - lines[j].End.Y) / (lines[j].Start.X - lines[j].End.X);
-                    double c1 = lines[i].Start.Y - m1 * lines[i].Start.X;
-                    double c2 = lines[j].Start.Y - m2 * lines[j].Start.X;
 
                     if (Math.Abs(m1 - m2) < CGUtilities.Constants.Epsilon)
                     {
@@ -26,12 +24,8 @@ namespace CGAlgorithms.Algorithms.Intersection
                         outLines.Add(new CGUtilities.Line(lines[j].Start, lines[j].End));
                         continue;
                     }
-
-                    double X = (c2 - c1) / (m1 - m2);
-                    double Y = m1 * X + c1;
-
-                    if(HelperMethods.PointOnSegment(new Point(X, Y), lines[j].Start, lines[j].End))
-                        outPoints.Add(new CGUtilities.Point(X, Y));
+                    Point Intersection = HelperMethods.GetIntersection(lines[i], lines[j]);
+                    if (Intersection != null) outPoints.Add(Intersection);
                 }
             }
         }

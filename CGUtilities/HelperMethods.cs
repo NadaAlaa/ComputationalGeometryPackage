@@ -8,7 +8,49 @@ namespace CGUtilities
 {
     public class HelperMethods
     {
-        public static List<Point> sortClockWise(List<Point> set)
+        public static void Swap(Point obj1, Point obj2)
+        {
+            Point tmp = obj1;
+            obj1 = obj2;
+            obj2 = tmp;
+        }
+        public static Point GetIntersection(Line a, Line b)
+        {
+            if (a == null || b == null) return null;
+            double m1 = (a.Start.Y - a.End.Y) / (a.Start.X - a.End.X);
+            double m2 = (b.Start.Y - b.End.Y) / (b.Start.X - b.End.X);
+            double c1 = a.Start.Y - m1 * a.Start.X;
+            double c2 = b.Start.Y - m2 * b.Start.X;
+            double X, Y;
+
+            if (Math.Abs(m1 - m2) < CGUtilities.Constants.Epsilon)
+                return null;
+            if (m1 == Double.PositiveInfinity)
+            {
+                X = a.Start.X;
+                Y = m2 * X + c2;
+            }
+            else if (m2 == Double.PositiveInfinity)
+            {
+                X = b.Start.X;
+                Y = m1 * X + c1;
+            }
+            else
+            {
+                X = (c2 - c1) / (m1 - m2);
+                Y = m1 * X + c1;
+            }
+
+            if (HelperMethods.PointOnSegment(new Point(X, Y), b.Start, b.End) &&
+                HelperMethods.PointOnSegment(new Point(X, Y), a.Start, a.End))
+                return new Point(X, Y);
+            return null;
+        }
+        public static bool IsVertical(Line a)
+        {
+            return a.Start.X == a.End.X;
+        }
+        public static List<Point> SortClockWise(List<Point> set)
         {
             if (set.Count > 1)
             {

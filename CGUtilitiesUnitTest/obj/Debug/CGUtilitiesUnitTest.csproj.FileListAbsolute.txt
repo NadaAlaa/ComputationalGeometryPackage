@@ -9,6 +9,5 @@ C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGUtilitiesUnitTest\bin\Debug\CGUtiliti
 C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGUtilitiesUnitTest\bin\Debug\CGUtilitiesUnitTest.pdb
 C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGUtilitiesUnitTest\bin\Debug\CGUtilities.dll
 C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGUtilitiesUnitTest\bin\Debug\CGUtilities.pdb
-C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGUtilitiesUnitTest\obj\Debug\CGUtilitiesUnitTest.csprojResolveAssemblyReference.cache
 C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGUtilitiesUnitTest\obj\Debug\CGUtilitiesUnitTest.dll
 C:\Users\nadaa\Desktop\Projects\CGUI V.2\CGUtilitiesUnitTest\obj\Debug\CGUtilitiesUnitTest.pdb

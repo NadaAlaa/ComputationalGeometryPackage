@@ -9,7 +9,7 @@ namespace CGUtilities
     /// <summary>
     /// The primary Point structure to be used in the CG project.
     /// </summary>
-    public class Point : ICloneable
+    public class Point : ICloneable, IComparable
     {
         /// <summary>
         /// Creates a point structure with the given coordinates.
@@ -55,6 +55,14 @@ namespace CGUtilities
         {
             return new Point(p.X / d, p.Y / d);
         }
+        public static bool operator >(Point p, Point d)
+        {
+            return p.X > d.X || Math.Abs(p.X - d.X) < Constants.Epsilon && p.Y > d.Y;
+        }
+        public static bool operator <(Point p, Point d)
+        {
+            return p.X < d.X || Math.Abs(p.X - d.X) < Constants.Epsilon && p.Y < d.Y;
+        }
         public Point Vector(Point to)
         {
             return new Point(to.X - this.X, to.Y - this.Y);
@@ -77,6 +85,15 @@ namespace CGUtilities
         public object Clone()
         {
             return new Point(X, Y);
+        }
+        public int CompareTo(object j)
+        {
+            Point y = (Point)j;
+            if (y.X > X) return -1;
+            if (y.X < X) return 1;
+            if (y.Y > Y) return -1;
+            if (y.Y < Y) return 1;
+            return 0;
         }
     }
 }
