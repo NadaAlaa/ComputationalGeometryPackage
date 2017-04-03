@@ -50,12 +50,22 @@ namespace CGUtilities
         {
             return a.Start.X == a.End.X;
         }
+        public static void SortCCW(ref List<Point> points)
+        {
+            int idx = 0, N = points.Count;
+            for (int i = 1; i < N; i++)
+            {
+                if (points[i] < points[idx]) idx = i;
+            }
+            if (CheckTurn(new Line(points[(idx - 1 + N) % N], points[(idx + 1) % N]), points[idx]) == Enums.TurnType.Right) return;
+            points.Reverse();
+        }
         public static List<Point> SortClockWise(List<Point> set)
         {
             if (set.Count > 1)
             {
                 //Declarations
-                int indexNoClock, indexClock, prev_index;
+                int indexNoClock, prev_index;
                 const int initial = 0;
                 int setSize = set.Count;
                 List<Point> setClockWise = new List<Point>();
@@ -215,13 +225,20 @@ namespace CGUtilities
         }
         public static double GetAngle(Line a, Line b)
         {
+            //Point a1 = GetVector(a);
+            //Point b1 = GetVector(b);
+            //double angle = Math.Atan2(b1.Y - a1.Y, b1.X - a1.X);
             Point vector_1 = new Point(a.End.X - a.Start.X, a.End.Y - a.Start.Y);
             Point vector_2 = new Point(b.End.X - b.Start.X, b.End.Y - b.Start.Y);
             double cross = HelperMethods.CrossProduct(vector_1, vector_2);
             double dot = HelperMethods.DotProduct(vector_1, vector_2);
             double angle = Math.Atan2(cross, dot);
-            if (angle < 0) angle += 360;
+            if (angle < 0) angle += Math.PI;
             return angle;
+        }
+        public static bool IsConvex(Point p, Point p_prev, Point p_next)
+        {
+            return CheckTurn(new Line(p_prev, p), p_next) == Enums.TurnType.Left;
         }
         public static bool PointOnRay(Point p, Point a, Point b)
         {
@@ -260,6 +277,10 @@ namespace CGUtilities
         public static Point GetVector(Line l)
         {
             return l.Start.Vector(l.End);
+        }
+        public static double GetDistanceBetweenPoints(Point a, Point b)
+        {
+            return (a.X - b.X) * (a.X - b.X) + (a.Y - b.Y) * (a.Y - b.Y);
         }
     }
 }
